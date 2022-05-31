@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    animation: bgcolor infinite 20s;
+}
+@keyframes bgcolor {
+    0%
+    {
+        background: #e74c3c;
+    }
+    
+    20%
+    {
+        background: #2980b9;
+    }
+    40%
+    {
+        background: #f1c40f ;
+    }
+    60%
+    {
+        background: #2ecc71 ;
+    }
+    80%
+    {
+        background: #8e44ad;
+    }
+    
+    100%
+    {
+        background: #c0392b ;
+    }
+}
+body {
+    font-family: 'Lato', serif;
+}
+
+h2{
+    font-family: 'Tiro Kannada', serif;
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.birthday-timer{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-style: outset;
+    border-width: 18px;
+    border-color: rgb(255, 0, 60);
+    padding: 5px;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.day, .hour, .minute, .second{
+    font-size: 3rem;
+}
