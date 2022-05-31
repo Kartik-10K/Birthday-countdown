@@ -1,2 +1,3 @@
-# Birthday-timer
-birthday timer
+# Birthday-countdown
+Countdown
+
